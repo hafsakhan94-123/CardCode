@@ -19,7 +19,9 @@ public class CardDealer
 
         Card firstObject = new Card("diamond", 2);
         
-        System.out.println();
-        System.out.println();
+        System.out.println(firstObject.getValue());
+        System.out.println(firstObject.getSuit());
+
+        Card secondObject = new Card("spade", 10);
     }
 }
