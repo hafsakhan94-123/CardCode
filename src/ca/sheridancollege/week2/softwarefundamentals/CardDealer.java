@@ -18,5 +18,8 @@ public class CardDealer
         nineClubs.setSuit("diamonds");
 
         Card firstObject = new Card("diamond", 2);
+        
+        System.out.println();
+        System.out.println();
     }
 }
